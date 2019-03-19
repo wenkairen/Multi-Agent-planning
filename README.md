@@ -28,3 +28,7 @@ agent 1:
 agent 2 with previouse agent 1 path:
 ![agent2](./images/agent2.png)
 
+Second agent pass fisrt agent path
+agent 2 with previouse agent 1 path:
+![agent](./images/result2.png)
+
