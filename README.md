@@ -28,6 +28,3 @@ agent 1:
 agent 2 with previouse agent 1 path:
 ![agent2](./images/agent2.png)
 
-## Conclusion:
-Overall, I do really enjoy the project, from the beginning of how to construct the map and planner, I need to deeply think
-about how to make the data structure more flexiable and easy to modify, also the problem can be uppgrade with multi-agent at the same time, but this would require different method like parallel A*, or if I am allowed to use angle to accross edges, I can also use hybrid-A* in that case, anyway, and there are lots part of code need to be improved , but due to time limit of this project I have tried the best I could to make cleanner. 
