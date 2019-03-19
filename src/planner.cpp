@@ -170,7 +170,7 @@ void Planner::state_Callback(const geometry_msgs::Pose2D::ConstPtr& msg)
 	start->x = msg->x;
 	start->y = msg->y;
 	start->yaw = msg->theta;
-	// cout << start->x << endl;
+
 
 }
 
@@ -196,7 +196,7 @@ bool Planner::path_callback(muti_planning::agentpath::Request &req,
 	end->x = goal.x;
 	end->y = goal.y;
 	end->yaw = goal.theta;
-	cout << end->x << endl;
+
 	vector<vector<Node::Ptr>> came_from = findPath(start, end, rm->map_);
 	vector<Node::Ptr > node_path = reconstructPath(start, end, came_from);
 
