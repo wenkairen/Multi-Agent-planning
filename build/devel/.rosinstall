@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/wenkai/catkin_ws/src/muti_planning/build/devel/setup.sh
